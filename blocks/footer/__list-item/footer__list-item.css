@@ -1,0 +1,15 @@
+.footer__list-item {
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__list-item {
+        margin: 32px 0 0 16px;
+        width: fit-content;
+    }
+    .footer__list-item:first-of-type {
+        margin-top: 64px;
+    }
+}
