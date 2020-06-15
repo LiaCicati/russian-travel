@@ -22,13 +22,14 @@
             margin: 115px auto 0;
             font-size: 60px;
             line-height: 1.1;
+            max-width: 480px;
         }
     }
     
     @media screen and (max-width: 425px) {
         .cover__title {
             margin: 33px auto 0;
-            max-width: 288px;
+            max-width: 250px;
             min-height: 70px;
             font-size: 32px;
             line-height: 1.10;
