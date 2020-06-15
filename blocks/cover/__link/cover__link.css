@@ -1,0 +1,19 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 1184px;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    max-height: 740px;
+    text-decoration: none;
+}
+
+.cover__link:hover {
+    opacity: .4;
+}

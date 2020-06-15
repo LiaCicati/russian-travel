@@ -1,9 +1,16 @@
 .place__website_url-heading {
-    font-weight: normal;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 1.2;
+    font-weight: normal;
     font-style: normal;
     letter-spacing: 0.2em;
-    margin: 0 0 16px;
     color: #aaa;
+    text-transform: uppercase;
+    margin: 23px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+    .place__website_url-heading {
+        display: none;
+    }
 }

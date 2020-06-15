@@ -6,32 +6,30 @@
 @import url('./__description/place__description.css');
 @import url('./__paragraph/place__paragraph.css');
 .place {
-    margin: 0 auto 80px;
     max-width: 984px;
-}
-
-.place:first-of-type {
-    margin-top: 0;
+    margin: 0 auto 72px;
 }
 
 .place:last-of-type {
     margin-bottom: 92px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .place {
-        max-width: 928px;
+        margin-bottom: 48px;
+        padding: 0 48px 0;
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 768px) {
     .place {
-        max-width: 720px;
+        padding: 0 16px 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place {
-        max-width: 320px;
+        margin: 68px auto 0;
+        padding: 0;
     }
 }

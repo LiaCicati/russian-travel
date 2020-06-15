@@ -1,12 +1,17 @@
 .place__image-container {
+    margin-top: 60px;
     display: flex;
-    margin-top: 48px;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
     .place__image-container {
-        flex-wrap: wrap;
-        width: 320px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image-container {
         margin-top: 32px;
     }
 }

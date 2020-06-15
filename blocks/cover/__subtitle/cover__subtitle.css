@@ -1,6 +1,5 @@
 .cover__subtitle {
-    width: 382px;
-    height: fit-content;
+    max-width: 382px;
     margin: 32px auto 0;
     font-style: normal;
     font-weight: normal;

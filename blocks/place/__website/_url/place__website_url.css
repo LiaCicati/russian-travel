@@ -11,3 +11,23 @@
 .place__website_url:hover {
     opacity: .5;
 }
+
+.place__website_url {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    text-decoration: underline;
+    transition: opacity 0.4s;
+}
+
+.place__website_url:hover {
+    opacity: .3;
+}
+
+@media screen and (max-width: 425px) {
+    .place__website_url {
+        display: none;
+    }
+}
