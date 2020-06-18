@@ -1,8 +1,7 @@
-@import url('./intro__text_normal.css');
 .intro__text {
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 1.63;
     color: #FFFFFF;
 }

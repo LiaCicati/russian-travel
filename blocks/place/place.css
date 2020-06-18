@@ -6,32 +6,41 @@
 @import url('./__description/place__description.css');
 @import url('./__paragraph/place__paragraph.css');
 .place {
-    margin: 0 auto 80px;
     max-width: 984px;
-}
-
-.place:first-of-type {
-    margin-top: 0;
+    margin: 0 auto 80px;
 }
 
 .place:last-of-type {
     margin-bottom: 92px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
+        margin-bottom: 4px;
+        padding: 24px;
+    }
+    .place:last-of-type {
+        margin-bottom: 68px;
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 768px) and (min-width: 640px) {
     .place {
         max-width: 720px;
+        margin-bottom: 0;
+    }
+    .place:last-of-type {
+        margin-bottom: 40px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) and (min-width: 320px) {
     .place {
-        max-width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+    .place:last-of-type {
+        margin-bottom: 16px;
     }
 }

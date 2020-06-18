@@ -4,20 +4,16 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-self: center;
     align-items: center;
+    max-width: 1184px;
     flex-shrink: 0;
-    padding: 28px 48px 0;
+    padding: 28px 0 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .header {
-        padding: 28px 24px 0px;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-    .header {
-        padding: 16px 16px 0;
+        max-width: 928px;
     }
 }
 

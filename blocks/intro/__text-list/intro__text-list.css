@@ -7,7 +7,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro__text-list {
-        max-width: 690px;
         margin-left: 48px;
     }
 }

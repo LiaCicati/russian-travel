@@ -7,10 +7,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 148px;
+    max-width: 1184px;
+    padding: 0 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .lead {
+        padding: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
     .lead {
         padding: 0;
     }

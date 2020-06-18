@@ -1,35 +1,39 @@
 .cover__image {
-    position: absolute;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url('../../../images/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 740px;
     width: 100%;
-    max-width: 1184px;
-    margin: 0 auto;
-    z-index: -1;
+    height: 100%;
 }
 
-.cover__image:hover {
-    opacity: .4;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     .cover__image {
-        min-width: 1024px;
+        max-width: 1024px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
     .cover__image {
-        min-width: 768px;
+        max-width: 768px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .cover__image {
-        min-width: 425px;
+        max-width: 425px;
+        min-height: 266px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__image {
-        min-width: 320px;
+        max-width: 320px;
+        min-height: 200px;
     }
 }

@@ -1,17 +1,16 @@
-@import url('./__content/page__content.css');
 .page {
+    display: flex;
+    min-width: 320px;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
     font-family: Inter, Arial, Helvetica, sans-serif;
     background-color: #2A2C2F;
     color: #ffffff;
-    font-weight: 400;
-    margin: 0;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-}
-
-body {
-    background-color: #2A2C2F;
 }

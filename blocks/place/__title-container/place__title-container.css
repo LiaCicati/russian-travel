@@ -1,27 +1,3 @@
-    .place__title-container {
+.place__title-container {
     display: flex;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .place__title-container {
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 768px) and (min-width: 425px) {
-    .place__title-container {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place__title-container {
-        max-width: 288px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__title-container {
-        margin: 0 auto;
-    }
