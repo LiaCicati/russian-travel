@@ -1,18 +1,5 @@
 .place__website_url {
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 0;
-    text-decoration-line: underline;
-}
-
-.place__website_url:hover {
-    opacity: .5;
-}
-
-.place__website_url {
+    max-width: 100%;
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
@@ -20,14 +7,9 @@
     line-height: 1.6;
     text-decoration: underline;
     transition: opacity 0.4s;
+    margin: 0;
 }
 
 .place__website_url:hover {
-    opacity: .3;
-}
-
-@media screen and (max-width: 425px) {
-    .place__website_url {
-        display: none;
-    }
+    opacity: 0.8;
 }

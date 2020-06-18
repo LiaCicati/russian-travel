@@ -1,13 +1,12 @@
+@import url('./header__lang_active.css');
 .header__lang {
     min-width: 30px;
-    max-height: 28px;
     color: #FFFFFF;
     font-size: 24px;
     font-style: normal;
     font-weight: normal;
-    line-height: 23px;
+    line-height: 28px;
     margin: 0;
-    text-decoration: underline;
     align-self: flex-end;
 }
 
@@ -17,11 +16,8 @@
     text-align: right;
 }
 
-@media screen and (max-width: 768px) {
-    .header__lang {
-        font-size: 24px;
-        line-height: 1.16;
-    }
+.header__lang:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {

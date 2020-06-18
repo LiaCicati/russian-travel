@@ -4,11 +4,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-left: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 640px) and (min-width: 320px) {
     .place__website {
-        margin: 0 0 28px 24px;
+        display: none;
     }
 }

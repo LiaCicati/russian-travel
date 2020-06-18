@@ -7,7 +7,7 @@
 @import url('./__paragraph/place__paragraph.css');
 .place {
     max-width: 984px;
-    margin: 0 auto 72px;
+    margin: 0 auto 80px;
 }
 
 .place:last-of-type {
@@ -16,20 +16,31 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        margin-bottom: 48px;
-        padding: 0 48px 0;
+        max-width: 928px;
+        margin-bottom: 4px;
+        padding: 24px;
+    }
+    .place:last-of-type {
+        margin-bottom: 68px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 640px) {
     .place {
-        padding: 0 16px 0;
+        max-width: 720px;
+        margin-bottom: 0;
+    }
+    .place:last-of-type {
+        margin-bottom: 40px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) and (min-width: 320px) {
     .place {
-        margin: 68px auto 0;
+        margin: 0;
         padding: 0;
+    }
+    .place:last-of-type {
+        margin-bottom: 16px;
     }
 }

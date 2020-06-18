@@ -1,9 +1,21 @@
 .place__image {
-    width: 45%;
+    width: 460px;
     align-self: flex-start;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
+    .place__image {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
     .place__image {
         width: 100%;
     }

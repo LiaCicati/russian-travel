@@ -1,10 +1,9 @@
-@import url('./__title/cover__title.css');
-@import url('./__subtitle/cover__subtitle.css');
-@import url('./__image/cover__image.css');
-@import url('./__background/cover__background.css');
-@import url('./__link/cover__link.css');
-.cover {
-    max-width: 1184px;
-    margin: 102px auto 0;
-    padding: 0 48px;
-}
+    @import url('./__text/cover__text.css');
+    @import url('./__title/cover__title.css');
+    @import url('./__subtitle/cover__subtitle.css');
+    @import url('./__image/cover__image.css');
+    @import url('./__link/cover__link.css');
+    .cover {
+        display: grid;
+        grid-template-columns: 1fr minmax(320px, 1184px) 1fr;
+    }
