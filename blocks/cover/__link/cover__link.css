@@ -10,18 +10,6 @@
     z-index: 1;
 }
 
-<<<<<<< HEAD
-
-/* .cover__link:hover {
-    background: #2A2C2F;
-    opacity: 0.8;
-} */
-=======
-.cover__link:hover {
-    opacity: .8;
-}
->>>>>>> b4c23fadf06db60cbd2df484f7b348b339659115
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover__link {
         height: 640px;
