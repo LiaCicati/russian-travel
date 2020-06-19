@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
     .intro__title {
-        margin: 88px auto 0;
+        margin: 88px 24px 0;
     }
 }
 

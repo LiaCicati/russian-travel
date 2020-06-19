@@ -4,6 +4,8 @@
     @import url('./__image/cover__image.css');
     @import url('./__link/cover__link.css');
     .cover {
-        display: grid;
-        grid-template-columns: 1fr minmax(320px, 1184px) 1fr;
+        max-width: 1184px;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
     }

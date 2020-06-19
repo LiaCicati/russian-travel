@@ -1,9 +1,32 @@
 .cover__link {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
-    z-index: 1;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    height: 740px;
+}
+
+.cover__link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -1;
+    transition: opacity 200ms ease-in-out;
+}
+
+.cover__link:hover:before {
+    background: #2A2C2F;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

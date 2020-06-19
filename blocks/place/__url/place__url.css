@@ -1,0 +1,33 @@
+.place__url-heading {
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.2em;
+    color: #aaa;
+    text-transform: uppercase;
+    margin: 23px 0 0;
+}
+
+@media screen and (max-width:768px) {
+    .place__url-heading {
+        margin-bottom: 12px;
+    }
+}
+
+.place__url {
+    max-width: 100%;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    text-decoration: underline;
+    transition: opacity 0.4s;
+    margin: 0;
+}
+
+.place__url:hover {
+    opacity: 0.8;
+}

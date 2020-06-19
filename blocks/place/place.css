@@ -3,6 +3,8 @@
 @import url('./__image-container/place__image-container.css');
 @import url('./__image/place__image.css');
 @import url('./__website/place__website.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
 @import url('./__description/place__description.css');
 @import url('./__paragraph/place__paragraph.css');
 .place {

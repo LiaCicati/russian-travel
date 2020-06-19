@@ -16,6 +16,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .lead__title {
+        margin-top: 48px;
+    }
+}
+
 @media screen and (max-width: 767px) and (min-width: 425px) {
     .lead__title {
         margin-top: 48px;
