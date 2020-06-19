@@ -3,3 +3,15 @@
     max-width: 984px;
     margin: 64px 0 8px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__image {
+        margin-top: 40px;
+    }
+}
