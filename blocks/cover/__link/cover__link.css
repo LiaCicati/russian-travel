@@ -12,20 +12,20 @@
     height: 740px;
 }
 
-.cover__link:before {
+.cover__link::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.5;
+    background-color: #2A2C2F;
+    opacity: 0.3;
     z-index: -1;
-    transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-out;
 }
 
 .cover__link:hover:before {
-    background: #2A2C2F;
     opacity: 0.8;
 }
 
