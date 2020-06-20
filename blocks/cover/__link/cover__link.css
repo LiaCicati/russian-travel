@@ -25,7 +25,7 @@
     transition: opacity 200ms ease-out;
 }
 
-.cover__link:hover:before {
+.cover__link:hover::before {
     opacity: 0.8;
 }
 
