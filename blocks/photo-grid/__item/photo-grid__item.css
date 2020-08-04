@@ -2,6 +2,7 @@
     width: 284px;
     max-width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {

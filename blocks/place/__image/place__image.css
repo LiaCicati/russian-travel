@@ -3,6 +3,7 @@
     max-width: 460px;
     width: 100%;
     align-self: flex-start;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {

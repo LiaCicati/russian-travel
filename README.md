@@ -6,9 +6,10 @@
 ## Технологии:
 * ###	HTML
 * ###	CSS
+* ###	JavaScript
 ----
 * ### Ссылка на сайт : 
-[ Site ](https://liacicati.github.io/russian-travel/)
+[ Russian Travel ](https://liacicati.github.io/russian-travel/)
 ## Дополнительная информация:
 * ### *Ссылка на макет в Figma*
  [ Макет ](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)

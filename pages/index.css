@@ -10,3 +10,5 @@
 @import url('../blocks/place/place.css');
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/modal/modal.css');
+@import url('../blocks/modal/_opened/modal_opened.css');
