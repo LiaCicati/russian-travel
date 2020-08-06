@@ -21,6 +21,12 @@
 @media screen and (max-width: 425px) {
     .intro__text-list {
         margin: 0 auto;
+        min-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text-list {
         min-width: 288px;
     }
 }

@@ -24,7 +24,14 @@
 
 @media screen and (max-width: 425px) {
     .intro__content-text {
-        max-width: 288px;
+        max-width: 352px;
         margin: 40px auto 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__content-text {
+        max-width: 288px;
+
     }
 }
