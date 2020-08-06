@@ -1,11 +1,11 @@
 .intro__title {
-    width: fit-content;
+    max-width: 675px;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 1.07;
     color: #FFFFFF;
-    word-break: break-all;
+    word-wrap: break-word;
     margin: 64px 0 0 100px;
 }
 
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
     .intro__title {
-        margin: 88px 24px 0;
+        margin: 88px 0 0;
     }
 }
 

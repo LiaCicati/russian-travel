@@ -66,6 +66,8 @@ function closeOnEsc(evt) {
     }
 };
 
+
+
 // Event Listeners
 leadImage.addEventListener('click', leadImageModal);
 closeModalWindow.addEventListener('click', () => toggleModal(modalWindow));

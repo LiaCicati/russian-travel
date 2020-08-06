@@ -6,6 +6,7 @@
 
 
 .modal {
+    font-family: Inter, Arial, Helvetica, sans-serif;
     position: fixed;
     display: flex;
     width: 100%;

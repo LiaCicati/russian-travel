@@ -1,24 +1,26 @@
-# Проект 3: Путешествие по России
+# Project 3: Travel around the world
 
-### Oписание:
-### Маленький обзор удивительных мест в России достойных хорошего отпуска.
+### Description:
+### A small overview of amazing places. 
+### RU and EN version
 
-## Технологии:
+## Technologies:
 * ###	HTML
 * ###	CSS
 * ###	JavaScript
 ----
-* ### Ссылка на сайт : 
-[ Russian Travel ](https://liacicati.github.io/russian-travel/)
-## Дополнительная информация:
-* ### *Ссылка на макет в Figma*
- [ Макет ](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
-* ###	*Редактор исходного кода*:  Visual Studio Code
-* ###	*Используемая методология*:  Методология БЭМ
+* ### Link : 
+[ Travel ](https://liacicati.github.io/russian-travel/)
+## Additional Information:
+* ### *Project in Figma*
+ [ Template Ru ](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+ [ Template En ](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=6829%3A2)
+* ###	*Source-code Editor*:  Visual Studio Code
+* ###	*Methodology*: BEM Methodology
 
 
 
-| Имя         | Email                |
+| Name        | Email                |
 | ----------- | -------------------- |
-| Чикати Лиа  | LiaCicati@yandex.com |
+| Lia Cicati  | LiaCicati@yandex.com |
 
